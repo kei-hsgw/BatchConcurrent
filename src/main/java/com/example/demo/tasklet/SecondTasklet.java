@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
 
-@Component
+@Component("SecondTasklet")
 @StepScope
 @Slf4j
 public class SecondTasklet implements Tasklet {
